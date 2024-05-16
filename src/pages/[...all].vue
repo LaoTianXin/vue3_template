@@ -8,5 +8,5 @@
 
 <route lang="yaml">
 meta:
-  layout: notFound
+  layout: 404
 </route>
