@@ -4,12 +4,13 @@
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<script lang="tsx" setup>
+defineRender(() => {
+  return <div>about</div>
+})
+</script>
+
+<route lang="yaml">
+meta:
+  layout: default
+</route>
