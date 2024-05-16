@@ -1,9 +1,8 @@
-<script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
-    <HelloWorld />
+    <icon-mdi-account />
+    <HelloWorld msg="111" />
   </main>
 </template>
