@@ -19,6 +19,7 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    'vue/no-reserved-component-names': 'off'
+    'vue/no-reserved-component-names': 'off',
+    'vue/multi-word-component-names': 'off'
   }
 }
