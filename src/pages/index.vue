@@ -18,7 +18,7 @@ onMounted(() => {
 
 <template>
   <main>
-    <icon-mdi-account />
+    <div class="i-mdi-vuetify"></div>
     <div>{{ count }}</div>
     <HelloWorld v-model:count="count" />
     <ReloadPrompt></ReloadPrompt>
